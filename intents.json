@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Bye! Take care!", "Goodbye!", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Anytime!", "Glad I could help!"]
+    },
+    {
+      "tag": "gift_ideas",
+      "patterns": [
+        "give me gift suggestions",
+        "what gift should I give",
+        "suggest me some gifts",
+        "give some idea of gifts",
+        "gift ideas for someone"
+      ],
+      "responses": [
+        "Here are some gift ideas: books, personalized mugs, flowers, or gadgets!",
+        "You can consider gifts like chocolates, perfume, a watch, or a photo frame."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, I didn't understand that.",
+        "I'm not sure how to respond to that yet."
+      ]
+    }
+  ]
+}
